@@ -11,9 +11,9 @@ Build:
 
 Run:
 
-    docker run -it --rm -v /Users/ctrld/Downloads:/data -v ~/.fb2conv/fb2conv.config.s:/root/.fb2conv/fb2conv.config fb2conv book.fb2.zip
+    docker run -it --rm -v /Users/ctrld/Downloads:/data -v ~/.fb2conv/fb2conv.config.s:/root/.fb2conv/fb2conv.config ctrld/fb2conv book.fb2.zip
 
-Directories in container:
+Parameters:
 
 - /data - directory with book.fb2.zip file
 - /root/.fb2conv/fb2conv.config - config file
